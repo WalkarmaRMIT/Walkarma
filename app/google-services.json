@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "756493735117",
+    "firebase_url": "https://walkarma-382a6.firebaseio.com",
+    "project_id": "walkarma-382a6",
+    "storage_bucket": "walkarma-382a6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:756493735117:android:7c3600fba86518bc",
+        "android_client_info": {
+          "package_name": "walkarma.walkarma"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "756493735117-4entmnt5gu841632gb0mdvjclhm0vi5o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "walkarma.walkarma",
+            "certificate_hash": "78c938477df91a280971a35e920355f3dda99ce4"
+          }
+        },
+        {
+          "client_id": "756493735117-c4u8spi74ajvecj0kfmhske8oo3kejl4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyA5A-symdz38Y1d8DDS4ZDQxisXZwVL4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "756493735117-c4u8spi74ajvecj0kfmhske8oo3kejl4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
