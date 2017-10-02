@@ -38,7 +38,8 @@
         <activity
             android:name=".MainMap"
             android:label="@string/title_activity_main_map" />
-        <activity android:name=".Profile"></activity>
+        <activity android:name=".Profile" />
+        <activity android:name=".dashboard"></activity>
     </application>
 
 </manifest>

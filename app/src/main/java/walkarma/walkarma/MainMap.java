@@ -88,6 +88,7 @@ import java.util.Map;
 
 public class MainMap extends FragmentActivity implements OnMapReadyCallback {
 
+    private Button mLogout, mSettings;
     private GoogleMap mMap;
     ArrayList markerPoints= new ArrayList();
 
@@ -99,6 +100,25 @@ public class MainMap extends FragmentActivity implements OnMapReadyCallback {
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
                 .findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
+        mLogout = (Button) findViewById(R.id.logout);
+        mSettings = (Button) findViewById(R.id.settings);
+        mLogout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                FirebaseAuth.getInstance().signOut();
+                Intent intent = new Intent(MainMap.this, login.class);
+                startActivity(intent);
+                finish();
+                return;
+            }
+        });
+        mSettings.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainMap.this, Profile.class);
+                startActivity(intent);
+            }
+        });
     }
 
 

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="walkarma.walkarma.dashboard">
+
+    <Button
+        android:id="@+id/Map"
+        android:layout_width="127dp"
+        android:layout_height="67dp"
+        android:text="Map"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="52dp" />
+
+    <Button
+        android:id="@+id/Profile"
+        android:layout_width="120dp"
+        android:layout_height="67dp"
+        android:text="Profile"
+        tools:layout_editor_absoluteX="177dp"
+        tools:layout_editor_absoluteY="52dp" />
+
+    <Button
+        android:id="@+id/WeeklyReport"
+        android:layout_width="127dp"
+        android:layout_height="71dp"
+        android:text="Weekly Report"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="146dp" />
+
+    <Button
+        android:id="@+id/Leaderboard"
+        android:layout_width="123dp"
+        android:layout_height="69dp"
+        android:text="Leaderboard"
+        tools:layout_editor_absoluteX="177dp"
+        tools:layout_editor_absoluteY="146dp" />
+</android.support.constraint.ConstraintLayout>
