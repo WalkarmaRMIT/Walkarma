@@ -115,7 +115,7 @@ public class MainMap extends FragmentActivity implements OnMapReadyCallback {
         mSettings.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainMap.this, Profile.class);
+                Intent intent = new Intent(MainMap.this, dashboard.class);
                 startActivity(intent);
             }
         });
@@ -134,7 +134,7 @@ public class MainMap extends FragmentActivity implements OnMapReadyCallback {
     @Override
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
-        LatLng sydney = new LatLng(-34, 151);
+        LatLng sydney = new LatLng(-37.807434, 144.964243);
         //mMap.addMarker(new MarkerOptions().position(sydney).title("Marker in Sydney"));
         mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(sydney, 16));
 
